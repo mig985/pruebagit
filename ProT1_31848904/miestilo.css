@@ -1,3 +1,4 @@
+/* 
 body {
 	background-color: #eaf2e3;
 	color: #333;
@@ -19,4 +20,25 @@ body {
 	margin: 30px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+*/
+
+header {
+	background-color: #69bd45;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+section {
+	padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+footer {
+	background-color: #4caf50; /* Color de fondo del footer */
+	color: #fff;
+	padding: 20px 0; 
+}
+.footer-content {
+	max-width: 800px; /* Ancho máximo del contenido del footer */
+	margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+	text-align: center; 
 }
