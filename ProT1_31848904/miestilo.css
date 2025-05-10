@@ -42,3 +42,41 @@ footer {
 	margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
 	text-align: center; 
 }
+
+/* Estilos para el nav y enlaces */
+nav {
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #2f8247;
+}
+
+/* Estilos para las imágenes */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: 3px solid #69bd45;
+  border-radius: 10px;
+}
