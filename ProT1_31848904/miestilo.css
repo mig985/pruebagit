@@ -24,10 +24,10 @@ body {
 */
 
 header {
-	background-color: #69bd45;
-	color: #fff;
-	text-align: center;
-	padding: 20px;
+	background-color: #1b5e20; /* verde bosque */
+  	color: #e0f2f1; /* verde agua claro */
+  	text-align: center;
+ 	padding: 20px;
 }
 section {
 	padding: 20px; /* espaciado para la sección de 20 pixeles */
