@@ -5,3 +5,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.parrafo-destacado {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
