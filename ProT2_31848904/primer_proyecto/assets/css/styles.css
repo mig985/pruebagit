@@ -1,0 +1,112 @@
+/* 
+body {
+	background-color: #eaf2e3;
+	color: #333;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.parrafo-destacado {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.contenedor-parrafos {
+	background-color: #fdfdfd;
+	border: 2px solid #ccc;
+	padding: 20px;
+	margin: 30px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+*/
+
+body {
+  background-color: pink !important;
+}
+
+
+
+header {
+	background-color: #1b5e20; /* verde bosque */
+  	color: #e0f2f1; /* verde agua claro */
+  	text-align: center;
+ 	padding: 20px;
+}
+section {
+	padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+footer {
+	background-color: #4caf50; /* Color de fondo del footer */
+	color: #fff;
+	padding: 20px 0; 
+}
+.footer-content {
+	max-width: 800px; /* Ancho máximo del contenido del footer */
+	margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+	text-align: center; 
+}
+
+/* Estilos para el nav y enlaces */
+nav {
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #2f8247;
+}
+
+/* Estilos generales para imágenes */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: 3px solid #69bd45;
+  border-radius: 10px;
+}
+
+.carrusel-ajustado {
+  height: 50px;
+  max-width: 500px; /* limita el ancho para que no ocupe todo el contenedor */
+  margin: 0 auto; /* centra el carrusel */
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
