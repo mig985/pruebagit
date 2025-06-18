@@ -14,13 +14,36 @@ class Paginas extends BaseController
     }
 
     public function nosotros()
-    {
-        $data['titulo'] = 'Nosotros';
-        echo view('front/header', $data);
-        echo view('front/navbar');
-        echo view('front/nosotros');
-        echo view('front/footer');
-    }
+{
+    $data['titulo'] = 'Nosotros';
+    $data['equipo'] = [
+    [
+        'nombre' => 'Laura',
+        'foto' => 'laura.jpg',
+        'descripcion' => 'Diseñadora amante del mate y los gatos.',
+        'genero' => 'femenino'
+    ],
+    [
+        'nombre' => 'Pedro',
+        'foto' => 'pedro.jpg',
+        'descripcion' => 'Programador que vive a café y líneas de código.',
+        'genero' => 'masculino'
+    ],
+    [
+        'nombre' => 'Sofía',
+        'foto' => 'sofia.jpg',
+        'descripcion' => 'Gestora de proyectos con corazón y método.',
+        'genero' => 'femenino'
+    ]
+];
+
+
+    echo view('front/header', $data);
+    echo view('front/navbar');
+    echo view('front/nosotros', $data);
+    echo view('front/footer');
+}
+
 
     public function login()
     {
